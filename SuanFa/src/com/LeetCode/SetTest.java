@@ -1,17 +1,11 @@
-package com.study;
+package com.LeetCode;
 
-
-import java.util.HashSet;
-
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
 
 public class SetTest {
     public static void main(String[] args) {
         String[] strs = {"flower","flow","flow"};
         //System.out.println(strs[1].indexOf("ow"));
-        System.out.println(new Solution().longestCommonPrefix(strs));
+        System.out.println(new Solution4().longestCommonPrefix(strs));
     }
 }
 /*
@@ -33,7 +27,7 @@ class Solution {
         return ans;
     }
 }*/
-class Solution {
+class Solution4 {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) return "";
         String prefix = strs[0];

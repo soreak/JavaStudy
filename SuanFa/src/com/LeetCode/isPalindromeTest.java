@@ -1,12 +1,12 @@
-package com.study;
+package com.LeetCode;
 
 public class isPalindromeTest {
     public static void main(String[] args) {
-        System.out.println(new Solution().isPalindrome(121));
+        System.out.println(new Solution1().isPalindrome(121));
     }
 }
 //回文数
-class Solution {
+class Solution1 {
     public boolean isPalindrome(int x) {
         String a = new StringBuilder().append(x).reverse().toString();
 
